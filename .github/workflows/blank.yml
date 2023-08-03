@@ -25,6 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: docker/login-action@v2
         with:
-          registry: registry.docker.io
-          login: murhliza
+          registry: docker.io
+          login: lizamurh
+          password: Vwih2az555
       - run: ls /Users/$(whoami)/google-cloud-sdk/bin/
